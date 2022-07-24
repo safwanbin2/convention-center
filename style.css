@@ -1,0 +1,22 @@
+
+#hot{
+    transform: translateY(-80px);
+}
+footer{
+    min-height: 30vh;
+    background-color: rgba(11, 13, 23, 1);
+}
+
+
+
+
+/* custom responsive */
+@media  screen and (max-width:576px) {
+    #hot{
+        transform: translatey(0);
+    }
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
